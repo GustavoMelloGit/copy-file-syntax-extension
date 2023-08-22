@@ -1,6 +1,5 @@
 # Copy File Syntax - Visual Studio Code Extension
 
-<!-- ![Copy File Syntax Banner](./images/banner.png) -->
 
 Copy File Syntax is a powerful Visual Studio Code extension designed to streamline the process of copying highlighted code snippets and formatting them with syntax highlighting. Whether you're sharing code on forums, writing documentation, or creating technical blog posts, this extension helps you create visually appealing and reader-friendly markdown representations of your code.
 
