@@ -1,48 +1,6 @@
 import * as vscode from 'vscode';
-
-function getHighlightedCode(): string | undefined {
-  const editor = vscode.window.activeTextEditor;
-
-  if (editor) {
-    const selectedText = editor.document.getText(editor.selection);
-    return selectedText;
-  }
-
-  return undefined;
-}
-
-function getFileExtension(): string | undefined {
-  const editor = vscode.window.activeTextEditor;
-
-  if (editor) {
-    const document = editor.document;
-    const fileExtension = document.fileName.split('.').pop();
-    return fileExtension;
-  }
-
-  return undefined;
-}
-
-function addHighlight(text: string): string {
-  return `\`\`\`${text}\n\`\`\``;
-}
-
-function getTextContent(): string | undefined {
-  const highlightedCode = getHighlightedCode();
-  const fileExtension = getFileExtension();
-  if (highlightedCode && fileExtension) {
-    return addHighlight(`${fileExtension}\n${highlightedCode}`);
-  }
-  return undefined;
-}
-
-async function writeToClipboard(text: string): Promise<void> {
-  try {
-    await vscode.env.clipboard.writeText(text);
-  } catch (error) {
-    vscode.window.showErrorMessage(`Failed to copy text: ${error}`);
-  }
-}
+import { getTextContent } from './utils/getTextContent';
+import { writeToClipboard } from './utils/writeToClipboard';
 
 export function activate(context: vscode.ExtensionContext) {
   let disposable = vscode.commands.registerCommand(
