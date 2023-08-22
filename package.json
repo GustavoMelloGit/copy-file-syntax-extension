@@ -3,6 +3,9 @@
   "displayName": "Copy File Syntax",
   "description": "Copy a piece of code and format it with syntax highlighting.",
   "version": "0.0.1",
+  "repository": {
+    "url": "https://github.com/GustavoMelloGit/copy-file-syntax-extension"
+  },
   "engines": {
     "vscode": "^1.81.0"
   },
