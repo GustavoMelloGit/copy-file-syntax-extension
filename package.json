@@ -6,6 +6,7 @@
   "repository": {
     "url": "https://github.com/GustavoMelloGit/copy-file-syntax-extension"
   },
+  "publisher": "GustavoMarquesdeMello",
   "engines": {
     "vscode": "^1.81.0"
   },
