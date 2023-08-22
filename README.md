@@ -15,7 +15,7 @@ Copy File Syntax is a powerful Visual Studio Code extension designed to streamli
 ## Usage
 
 1. Select the code you want to copy in the active editor.
-2. Run the "Copy Text with Syntax Highlight" command either by right-clicking and selecting it from the context menu or using the provided keyboard shortcut.
+2. Run the "File Syntax: Copy Code With Highlight!" command either by right-clicking and selecting it from the context menu or using the provided keyboard shortcut.
 3. The highlighted code with syntax formatting will be copied to your clipboard.
 4. Paste the markdown-formatted code snippet in your desired location.
 
@@ -26,9 +26,24 @@ Copy File Syntax is a powerful Visual Studio Code extension designed to streamli
 3. Search for "Copy File Syntax" and install the extension.
 4. Reload your VS Code window to activate the extension.
 
-## Keyboard Shortcut
+## Setting up a Keyboard Shortcut
 
-- Use `Ctrl+Shift+C` (Windows/Linux) or `Cmd+Shift+C` (Mac) to quickly copy highlighted code with syntax highlighting.
+To optimize your experience with the "File Syntax: Copy Code With Highlight!" extension, we recommend configuring a custom keyboard shortcut to activate the extension's command. Here's a step-by-step guide to assist you in setting it up:
+
+1. **Open Keyboard Shortcuts**: Launch Visual Studio Code and access the Keyboard Shortcuts settings. You can do this by following these steps:
+
+   - On Windows/Linux: Go to `File` > `Preferences` > `Keyboard Shortcuts`.
+   - On macOS: Navigate to `Code` > `Settings` > `Keyboard Shortcuts`.
+
+2. **Locate the Extension Command**: In the Keyboard Shortcuts search bar, type "File Syntax: Copy Code With Highlight!" to find the command provided by your extension.
+
+3. **Assign the Recommended Keyboard Shortcut**: When you identify the extension's command, you'll see an associated pencil icon. Click on it to open the keybinding editor for that command.
+
+4. **Configure the Shortcut**: In the keybinding editor, there will be a field to input your chosen keyboard shortcut. We strongly recommend using the `Ctrl+Shift+C` combination for its familiarity and ease of use.
+
+5. **Save and Apply**: After entering the keyboard shortcut, simply save your changes. Your newly created key binding will be applied automatically.
+
+Now, whenever you employ the `Ctrl+Shift+C` keyboard shortcut, the command will be triggered, allowing you to effortlessly copy highlighted code!
 
 ## Contributing
 
