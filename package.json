@@ -3,7 +3,7 @@
   "displayName": "Copy File Syntax",
   "description": "Copy a piece of code and format it with syntax highlighting.",
   "version": "0.0.1",
-  "icon": "icon.png",
+  "icon": "./assets/icon.png",
   "repository": {
     "url": "https://github.com/GustavoMelloGit/copy-file-syntax-extension"
   },
