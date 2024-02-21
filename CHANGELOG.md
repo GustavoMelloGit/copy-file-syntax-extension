@@ -9,7 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Overengineer codebase into using Dependency Injection / Inversion
 
-### Added
+## [1.1.0] - 2024-02-20
 
-- v1.0.0: Initial release
-- v1.0.1: Add support for copying the entire line when no text selection is made
+### Added
+- Add support for copying the entire line when no text selection is made
+
+## [1.0.0] - 2023-08-21
+
+- Initial release
